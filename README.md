@@ -1,6 +1,11 @@
 # Team-31
 WoTech program team-31 team works in Java and Python.
 
+T alanted
+L ovely
+L ively
+L oyal
+
 1) latvian or estionan
 2) children support 😊
 3) actual feeling about skills in Java and Phyton
