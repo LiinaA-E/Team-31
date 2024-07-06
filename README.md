@@ -16,6 +16,7 @@ LIINA
 1) est 
 2) 1- two years old  
 3) Pleasantly surprised how much I understand and able to do already.
+4) A little bit- One semester of Java at the university (about 18 years ago) and a small introduction to programming in a software tester course (about a year ago).
 
 TIINA
 1) Estonian 
