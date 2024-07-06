@@ -20,7 +20,7 @@ TIINA
 
 LIENE
 1) Latvian. I live in Grobina. 
-2) 3 and a noisy. My kids are 7, 3 and 2 years old.
+2) 3 and a noisy cat. My kids are 7, 3 and 2 years old.
 3) So far I feel confident about my skills, I am trilled that I understand almost everything! 
 4) No, just in high school 20 years ago
 
