@@ -5,3 +5,12 @@ WHERE age > (SELECT AVG(age) FROM Pets);
 all pets whose age is greater than the average age of all pets.
 
 SELECT * FROM Pets WHERE Name IN ('Simba', 'Stella', 'Sarah'); Gives all the pets with these names
+
+Combining AND, OR, and NOT. Find all female pets that are either older than 7 years or not cats.
+SELECT * FROM Pets WHERE Sex = 'female' AND (Age > 7 OR Kind != 'Cat');
+
+Find all pets that are either dogs or birds
+SELECT * FROM Pets WHERE Kind IN ('Dog', 'Bird');
+
+Find all pets that are not cats.
+SELECT * FROM Pets WHERE Kind != 'Cat';
