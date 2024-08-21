@@ -1,2 +1,7 @@
 SQLite WHERE query examples:
 
+SELECT * FROM Pets
+WHERE age > (SELECT AVG(age) FROM Pets);
+all pets whose age is greater than the average age of all pets.
+
+SELECT * FROM Pets WHERE Name IN ('Simba', 'Stella', 'Sarah'); Gives all the pets with these names
