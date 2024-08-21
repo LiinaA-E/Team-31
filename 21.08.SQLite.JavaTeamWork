@@ -14,3 +14,24 @@ SELECT * FROM Pets WHERE Kind IN ('Dog', 'Bird');
 
 Find all pets that are not cats.
 SELECT * FROM Pets WHERE Kind != 'Cat';
+
+Filtering for names with specific length
+SELECT * FROM Pets WHERE Kind = 'Dog' AND Name GLOB 'S??'
+
+Filtering with Range of Characters
+SELECT * FROM Pets WHERE Kind = 'Dog' AND NAME GLOB '[A-M']
+
+Find pets with palindromic (e.g. "Bob", "Otto")
+SELECT * FROM Pets
+WHERE Name = reverse(Name);
+
+Count how many pets have names that contain their kind
+SELECT COUNT(*) as PetsWithKindInName
+FROM Pets
+WHERE Name LIKE '%' || Kind || '%';
+
+Top 3 most expensive procedures
+SELECT Description, Price
+FROM Procedures
+ORDER BY Price DESC
+LIMIT 3;
